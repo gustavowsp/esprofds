@@ -1,0 +1,113 @@
+#body{
+    background-color: rgb(202, 202, 202);
+}
+#NavBarContainer{
+    background-color: #0D0D0D;
+}
+
+
+#Introuct{
+    background-image: url(img/pc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    
+    height: 400px;
+
+    display: flex;
+    justify-content: start;
+    
+    align-items: center;
+
+}
+#IntrouctContentBox{
+  
+    width: 700px;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#IntrouctContentBox h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+#IntrouctContentBox p{
+    font-weight: bold;
+}
+#IntrouctContentBox a{
+    background-color: #0D0D0D;
+    color: azure;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+#Points{
+    position: relative;
+    top: -40px;
+}
+.ponto-positivo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ponto-positivo{
+    border-radius: 5px;
+    background-color: #011F26;
+    color: white;
+    height: 300px;
+    width: 300px;
+    margin: 20px 0px;
+    padding: 20px;
+    text-align: center;
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.022);
+    transition: 1s;
+
+}
+.ponto-positivo:hover{
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.822);
+    transition: 0.4s;
+}
+.ponto-positivo .icon{
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    margin: auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0D0D0D;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.ponto-positivo{
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+
+footer{
+    background-color: #0D0D0D;
+    color: white;
+}
+footer ul{
+    padding: 30px 50px;
+    list-style-type: none;
+ 
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer ul li{
+    float: left;
+    margin: 5px 10px;
+}
